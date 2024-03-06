@@ -76,7 +76,13 @@ const Chats = () => {
     }, [user, navigate]);
 
 
-    if(!user || loading) return 'Loading...'; 
+    if(!user || loading){
+        return (
+            <div className="w-full h-screen flex justify-center items-center">
+                <h1 className="text-3xl font-semibold text-center animate-pulse">Just a blink...</h1>
+            </div>
+        );
+    }
 
     return (
         <div className="chats-page absolute w-[100vw] h-[100vh] top-0 left-0">
