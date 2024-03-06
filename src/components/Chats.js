@@ -86,7 +86,7 @@ const Chats = () => {
                 <div className="logo-tab absolute left-6 top-3 text-3xl text-white font-bold">
                     Interacto
                 </div>
-                <div onClick={handleLogout} className="logout-tab absolute right-6 top-4 text-white cursor-pointer text-lg">
+                <div onClick={handleLogout} className="logout-tab absolute right-10 top-2 text-white cursor-pointer text-lg border-2 p-2 rounded-lg hover:bg-blue-400">
                     Logout
                 </div>
 
