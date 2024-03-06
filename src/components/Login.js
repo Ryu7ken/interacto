@@ -1,9 +1,6 @@
 import GoogleButton from "react-google-button";
 import firebase from 'firebase/compat/app';
 import {auth} from '../firebase';
-import 'firebase/compat/firestore';
-import "firebase/compat/database";
-import "firebase/compat/storage"
 
 const Login = () => {
     return (
